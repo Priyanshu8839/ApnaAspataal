@@ -31,7 +31,6 @@ $con->close();
 
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -114,7 +113,7 @@ function googleTranslateElementInit() {
     <!-- Appointment Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="row gx-5">
+            <div class="row gx-5"> <!-- Responsive Form -->
                 
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="bg-light text-center rounded p-5">
