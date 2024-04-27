@@ -31,8 +31,7 @@
 </head>
 
 
-
-<body  background="img/doctor-1.jpg">
+<body background="img/doctor-1.jpg">
 <div id="google_translate_element"></div>
 
 <script type="text/javascript">
@@ -56,21 +55,21 @@ function googleTranslateElementInit() {
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.php" class="nav-item nav-link">Home</a>
-                        <a href="PatientLogin.php" class="nav-item nav-link">About</a>
-                        <a href="PatientLogin.php" class="nav-item nav-link">Service</a>
-                        <a href="PatientLogin.php" class="nav-item nav-link">Appointment</a>
+                        <a href="DoctorLogin.php" class="nav-item nav-link">About</a>
+                        <a href="DoctorLogin.php" class="nav-item nav-link">Service</a>
+                        <a href="DoctorLogin.php" class="nav-item nav-link">Appointment</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
-                                <a href="DoctorSignup.php" class="dropdown-item">Doctor Sign-Up</a>
+                                <a href="DoctorSignup.php" class="dropdown-item active">Doctor Sign-Up</a>
                                 <a href="DoctorLogin.php" class="dropdown-item">Doctor Log-In</a>
-                                <a href="PatientSignup.php" class="dropdown-item active">Patient Sign-Up</a>
+                                <a href="PatientSignup.php" class="dropdown-item">Patient Sign-Up</a>
                                 <a href="PatientLogin.php" class="dropdown-item">Patient Log-In</a>
-                                <a href="PatientLogin.php" class="dropdown-item">UserEducation</a>
+                                <a href="DoctorLogin.php" class="dropdown-item">UserEducation</a>
                             </div>
                         </div>
-                        <a href="PatientLogin.php" class="nav-item nav-link">Contact</a>
-                        <a href="PatientLogin/bot.php" class="nav-item nav-link">Chatbot</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="Chatbot/bot.php" class="nav-item nav-link">Chatbot</a>
                     </div>
                 </div>
             </nav>
@@ -81,14 +80,14 @@ function googleTranslateElementInit() {
 
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="div1">
+        <div class="row gx-5">
                 
-                <div class="div">
+                <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="bg-light text-center rounded p-5">
                         <h1 class="mb-4">Patient Sign-Up</h1>
                         <form action="Patient.php" method="post" enctype="multipart/form-data">
                             <div class="row g-3">
-
+            
                                 <div class="col-12">
                                     <input type="text" class="form-control bg-white border-0" placeholder="Patient Name" style="height: 35px;" name="PatientName">
                                 </div>
@@ -116,8 +115,12 @@ function googleTranslateElementInit() {
                         </form>
                     </div>
                 </div>
-
                
+
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
 
 
     <!-- Footer Start -->
