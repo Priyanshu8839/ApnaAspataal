@@ -119,9 +119,9 @@ function googleTranslateElementInit() {
     <!-- Appointment Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="div1">
+            <div class="row gx-5">
                 
-                <div class="div">
+                <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="bg-light text-center rounded p-5">
                         <h1 class="mb-4">Patient Log-In</h1>
                         <form action="PatientLogin.php" method="post">
