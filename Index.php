@@ -71,7 +71,7 @@ function googleTranslateElementInit() {
                             </div>
                         </div>
                         <a href="PatientLogin.php" class="nav-item nav-link">Contact</a>
-                        <a href="Chatbot/bot.php" class="nav-item nav-link">Chatbot</a>
+                        <a href="PatientLogin.php" class="nav-item nav-link">Chatbot</a>
                     </div>
                 </div>
             </nav>
